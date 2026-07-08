@@ -1,0 +1,1223 @@
+{
+  "subjects": [
+    {
+      "id": "sub-18",
+      "code": "ADM20805",
+      "name": "Administração Geral",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 2,
+      "color": "#f43f5e",
+      "classes": [
+        {
+          "id": "class-18a",
+          "code": "Turma 01",
+          "subjectId": "sub-18",
+          "professor": "Keliton da Silva Ferreira",
+          "room": "C113",
+          "vacancies": 39,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C113"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-19",
+      "code": "ALG20802",
+      "name": "Álgebra Linear",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 3,
+      "color": "#3b82f6",
+      "classes": [
+        {
+          "id": "class-19a",
+          "code": "Turma 01",
+          "subjectId": "sub-19",
+          "professor": "Fabiano Carlos Cidral",
+          "room": "C212",
+          "vacancies": 20,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C212"
+            },
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-20",
+      "code": "EXT20803",
+      "name": "Atividade Curricular de Extensão I",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 5,
+      "color": "#0d9488",
+      "classes": [
+        {
+          "id": "class-20a",
+          "code": "Turma 01",
+          "subjectId": "sub-20",
+          "professor": "Fabricio Yutaka Kuwabata Takigawa",
+          "room": "G016",
+          "vacancies": 39,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "22:30",
+              "room": "G016"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-21",
+      "code": "EXT20805",
+      "name": "Atividade Curricular de Extensão II",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 5,
+      "color": "#ec4899",
+      "classes": [
+        {
+          "id": "class-21a",
+          "code": "Turma 01",
+          "subjectId": "sub-21",
+          "professor": "Pedro Cesar Cordeiro Vieira",
+          "room": "G013 / C113",
+          "vacancies": 39,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G013"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C113"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-22",
+      "code": "EXT20806",
+      "name": "Atividade Curricular de Extensão III",
+      "course": "Sistemas de Energia",
+      "semester": 6,
+      "credits": 1,
+      "color": "#d946ef",
+      "classes": [
+        {
+          "id": "class-22a",
+          "code": "Turma 01",
+          "subjectId": "sub-22",
+          "professor": "Gustavo Cardoso Orsi",
+          "room": "G005",
+          "vacancies": 39,
+          "semester": 6,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "21:10",
+              "room": "G005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-23",
+      "code": "CAL20801",
+      "name": "Cálculo Aplicado",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 6,
+      "color": "#ea580c",
+      "classes": [
+        {
+          "id": "class-23a",
+          "code": "Turma 01",
+          "subjectId": "sub-23",
+          "professor": "Carlos Henrique Radavelli",
+          "room": "C107",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C107"
+            },
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C107"
+            },
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-24",
+      "code": "CAA222C01",
+      "name": "Cálculo I",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 7,
+      "color": "#e11d48",
+      "classes": [
+        {
+          "id": "class-24a",
+          "code": "Turma 03",
+          "subjectId": "sub-24",
+          "professor": "Antonio Joao",
+          "room": "C120",
+          "vacancies": 41,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C120"
+            },
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C120"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-25",
+      "code": "CTM20801",
+      "name": "Ciência e Tecnologia dos Materiais",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#8b5cf6",
+      "classes": [
+        {
+          "id": "class-25a",
+          "code": "Turma 01",
+          "subjectId": "sub-25",
+          "professor": "Zilton Magno da Cruz e Silva",
+          "room": "C210",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C210"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-26",
+      "code": "CEA20802",
+      "name": "Circuitos Elétricos A",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 4,
+      "color": "#2563eb",
+      "classes": [
+        {
+          "id": "class-26a",
+          "code": "Turma 01",
+          "subjectId": "sub-26",
+          "professor": "Bruno Scortegagna Dupczak",
+          "room": "G024 / C218",
+          "vacancies": 39,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G024"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C218"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-27",
+      "code": "CEB20803",
+      "name": "Circuitos Elétricos B",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 4,
+      "color": "#1d4ed8",
+      "classes": [
+        {
+          "id": "class-27a",
+          "code": "Turma 01",
+          "subjectId": "sub-27",
+          "professor": "Juliano Bitencourt Padilha",
+          "room": "C214 / G005",
+          "vacancies": 41,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C214"
+            },
+            {
+              "dayOfWeek": 5,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-28",
+      "code": "CME20805",
+      "name": "Comercialização de Energia",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 4,
+      "color": "#d97706",
+      "classes": [
+        {
+          "id": "class-28a",
+          "code": "Turma 01",
+          "subjectId": "sub-28",
+          "professor": "Rubipiara Cavalcante Fernandes",
+          "room": "C219",
+          "vacancies": 41,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "22:30",
+              "room": "C219"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-29",
+      "code": "CPQ20805",
+      "name": "Comunicação e Pesquisa",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 2,
+      "color": "#6b7280",
+      "classes": [
+        {
+          "id": "class-29a",
+          "code": "Turma 01",
+          "subjectId": "sub-29",
+          "professor": "Marco Antonio Quirino Pessoa",
+          "room": "C113",
+          "vacancies": 41,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C113"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-30",
+      "code": "DAC20801",
+      "name": "Desenho Técnico Auxiliado por Computador",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 1,
+      "color": "#06b6d4",
+      "classes": [
+        {
+          "id": "class-30a",
+          "code": "Turma 01",
+          "subjectId": "sub-30",
+          "professor": "Carlos Ernani da Veiga",
+          "room": "C220",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C220"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-31",
+      "code": "ECA20802",
+      "name": "Economia Aplicada",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 2,
+      "color": "#10b981",
+      "classes": [
+        {
+          "id": "class-31a",
+          "code": "Turma 01",
+          "subjectId": "sub-31",
+          "professor": "Everthon Taghori Sica",
+          "room": "C218",
+          "vacancies": 19,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C218"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-32",
+      "code": "EEA20805",
+      "name": "Eficiência Energética Aplicada",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 4,
+      "color": "#6366f1",
+      "classes": [
+        {
+          "id": "class-32a",
+          "code": "Turma 01",
+          "subjectId": "sub-32",
+          "professor": "Bruno Scortegagna Dupczak",
+          "room": "G031",
+          "vacancies": 41,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "22:30",
+              "room": "G031"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-33",
+      "code": "EMA20805",
+      "name": "Energia, Sociedade e Meio Ambiente",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 2,
+      "color": "#a855f7",
+      "classes": [
+        {
+          "id": "class-33a",
+          "code": "Turma 01",
+          "subjectId": "sub-33",
+          "professor": "Roberto de Mattos Soldi",
+          "room": "C212",
+          "vacancies": 39,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-34",
+      "code": "ESP20802",
+      "name": "Estatística e Probabilidade",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 3,
+      "color": "#059669",
+      "classes": [
+        {
+          "id": "class-34a",
+          "code": "Turma 01",
+          "subjectId": "sub-34",
+          "professor": "Guilherme Bitencourt Martins",
+          "room": "C212",
+          "vacancies": 41,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C212"
+            },
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-35",
+      "code": "FFS20801",
+      "name": "Fenômenos Físicos",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 4,
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "class-35a",
+          "code": "Turma 01",
+          "subjectId": "sub-35",
+          "professor": "Sergio Torlai Pereira",
+          "room": "C107",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C107"
+            },
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-36",
+      "code": "FEM20802",
+      "name": "Fundamentos de Eletromagnetismo",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 2,
+      "color": "#c084fc",
+      "classes": [
+        {
+          "id": "class-36a",
+          "code": "Turma 01",
+          "subjectId": "sub-36",
+          "professor": "Marly Vieira Viana",
+          "room": "C218",
+          "vacancies": 41,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C218"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-37",
+      "code": "FME20804",
+      "name": "Fundamentos de Máquinas Elétricas",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 4,
+      "color": "#f97316",
+      "classes": [
+        {
+          "id": "class-37a",
+          "code": "Turma 01",
+          "subjectId": "sub-37",
+          "professor": "Leandro de Medeiros Sebastiao",
+          "room": "G031 / G024",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G031"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G024"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-38",
+      "code": "GAN20801",
+      "name": "Geometria Analítica",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 3,
+      "color": "#0891b2",
+      "classes": [
+        {
+          "id": "class-38a",
+          "code": "Turma 01",
+          "subjectId": "sub-38",
+          "professor": "Guilherme Bitencourt Martins",
+          "room": "C107",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C107"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-39",
+      "code": "GMT222C01",
+      "name": "Geometria Analítica (Shared)",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 3,
+      "color": "#0284c7",
+      "classes": [
+        {
+          "id": "class-39a",
+          "code": "Turma 03",
+          "subjectId": "sub-39",
+          "professor": "Mairon Carliel Pontarolo",
+          "room": "C120",
+          "vacancies": 41,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C120"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-40",
+      "code": "IEL20803",
+      "name": "Instalações Elétricas",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 2,
+      "color": "#0d9488",
+      "classes": [
+        {
+          "id": "class-40a",
+          "code": "Turma 01",
+          "subjectId": "sub-40",
+          "professor": "Plinio Cornelio Filho",
+          "room": "LIEA",
+          "vacancies": 39,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "LIEA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-41",
+      "code": "IEE20804",
+      "name": "Introdução a Eficiência Energética",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 2,
+      "color": "#16a34a",
+      "classes": [
+        {
+          "id": "class-41a",
+          "code": "Turma 01",
+          "subjectId": "sub-41",
+          "professor": "Rafael Nilson Rodrigues",
+          "room": "G012",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-42",
+      "code": "ISE20802",
+      "name": "Introdução a Sistemas de Energia",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 2,
+      "color": "#0f766e",
+      "classes": [
+        {
+          "id": "class-42a",
+          "code": "Turma 01",
+          "subjectId": "sub-42",
+          "professor": "Anderson Soares Andre",
+          "room": "G012",
+          "vacancies": 41,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-43",
+      "code": "MAT20803",
+      "name": "Lógica de Programação em Matlab",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 2,
+      "color": "#7c3aed",
+      "classes": [
+        {
+          "id": "class-43a",
+          "code": "Turma 01",
+          "subjectId": "sub-43",
+          "professor": "Leandro de Medeiros Sebastiao",
+          "room": "G025",
+          "vacancies": 39,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-44",
+      "code": "MPE20804",
+      "name": "Macros em Planilhas Eletrônicas",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 2,
+      "color": "#10b981",
+      "classes": [
+        {
+          "id": "class-44a",
+          "code": "Turma 01",
+          "subjectId": "sub-44",
+          "professor": "Gustavo Cardoso Orsi",
+          "room": "G013",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-45",
+      "code": "MTF20804",
+      "name": "Matemática Financeira",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 2,
+      "color": "#1d4ed8",
+      "classes": [
+        {
+          "id": "class-45a",
+          "code": "Turma 01",
+          "subjectId": "sub-45",
+          "professor": "Joao Carlos Martins Lucio",
+          "room": "G013",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-46",
+      "code": "MEE20803",
+      "name": "Materiais e Equipamentos Elétricos",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 2,
+      "color": "#0369a1",
+      "classes": [
+        {
+          "id": "class-46a",
+          "code": "Turma 01",
+          "subjectId": "sub-46",
+          "professor": "Daniel Tenfen",
+          "room": "G016",
+          "vacancies": 41,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G016"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-47",
+      "code": "PEA20802",
+      "name": "Planilha Eletrônica Avançada",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 2,
+      "color": "#047857",
+      "classes": [
+        {
+          "id": "class-47a",
+          "code": "Turma 01",
+          "subjectId": "sub-47",
+          "professor": "Gustavo Cardoso Orsi",
+          "room": "220",
+          "vacancies": 39,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "220"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-48",
+      "code": "PPT20805",
+      "name": "Pré-Projeto de TCC",
+      "course": "Sistemas de Energia",
+      "semester": 5,
+      "credits": 2,
+      "color": "#dc2626",
+      "classes": [
+        {
+          "id": "class-48a",
+          "code": "Turma 01",
+          "subjectId": "sub-48",
+          "professor": "Joao Vitor Nunes Leal e Gustavo Cardoso Orsi",
+          "room": "G013",
+          "vacancies": 41,
+          "semester": 5,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-49",
+      "code": "PRE20803",
+      "name": "Produção de Energia",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 4,
+      "color": "#ea580c",
+      "classes": [
+        {
+          "id": "class-49a",
+          "code": "Turma 01",
+          "subjectId": "sub-49",
+          "professor": "Veronica Etchebehere Santiago e Wagner Coelho Leal",
+          "room": "G031 / G005",
+          "vacancies": 41,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G031"
+            },
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G005"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-50",
+      "code": "PII20801",
+      "name": "Projeto Integrador - Iniciação Científica",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#111827",
+      "classes": [
+        {
+          "id": "class-50a",
+          "code": "Turma 01",
+          "subjectId": "sub-50",
+          "professor": "Ricardo Luiz Alves e Rubipiara Cavalcante Fernandes",
+          "room": "C220",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C220"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-51",
+      "code": "PIE20804",
+      "name": "Projetos de Instalações Elétricas Residenciais e Prediais",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 4,
+      "color": "#9333ea",
+      "classes": [
+        {
+          "id": "class-51a",
+          "code": "Turma 01",
+          "subjectId": "sub-51",
+          "professor": "Wagner Coelho Leal",
+          "room": "G025",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G025"
+            },
+            {
+              "dayOfWeek": 5,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-52",
+      "code": "QEE20804",
+      "name": "Qualidade de Energia Elétrica",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 2,
+      "color": "#2563eb",
+      "classes": [
+        {
+          "id": "class-52a",
+          "code": "Turma 01",
+          "subjectId": "sub-52",
+          "professor": "Marcio Silveira Ortmann",
+          "room": "G023",
+          "vacancies": 39,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G023"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-53",
+      "code": "RTE20804",
+      "name": "Regulação Técnica e Econômica",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 2,
+      "color": "#be123c",
+      "classes": [
+        {
+          "id": "class-53a",
+          "code": "Turma 01",
+          "subjectId": "sub-53",
+          "professor": "Pedro Cesar Cordeiro Vieira",
+          "room": "C220",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C220"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-54",
+      "code": "SEG20802",
+      "name": "Segurança do Trabalho",
+      "course": "Sistemas de Energia",
+      "semester": 2,
+      "credits": 2,
+      "color": "#475569",
+      "classes": [
+        {
+          "id": "class-54a",
+          "code": "Turma 01",
+          "subjectId": "sub-54",
+          "professor": "Rafael Nilson Rodrigues",
+          "room": "C212",
+          "vacancies": 39,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "C212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-55",
+      "code": "SME20803",
+      "name": "Sistemas de Medição Elétrica",
+      "course": "Sistemas de Energia",
+      "semester": 3,
+      "credits": 2,
+      "color": "#1e3a8a",
+      "classes": [
+        {
+          "id": "class-55a",
+          "code": "Turma 01",
+          "subjectId": "sub-55",
+          "professor": "Cesar Alberto Penz",
+          "room": "G023",
+          "vacancies": 39,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:20",
+              "endTime": "22:30",
+              "room": "G023"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-56",
+      "code": "SEP20804",
+      "name": "Sistemas Elétricos de Potência",
+      "course": "Sistemas de Energia",
+      "semester": 4,
+      "credits": 2,
+      "color": "#0369a1",
+      "classes": [
+        {
+          "id": "class-56a",
+          "code": "Turma 01",
+          "subjectId": "sub-56",
+          "professor": "Marco Aurelio Moreira Saran",
+          "room": "G025",
+          "vacancies": 41,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "G025"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sub-57",
+      "code": "TCI20801",
+      "name": "Tecnologia da Informação",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#581c87",
+      "classes": [
+        {
+          "id": "class-57a",
+          "code": "Turma 01",
+          "subjectId": "sub-57",
+          "professor": "Joao Vitor Nunes Leal e Marcelo dos Santos Coutinho",
+          "room": "C220",
+          "vacancies": 45,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:10",
+              "room": "C220"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "syncStatus": {
+    "lastSync": "2026-07-08T12:13:57.219Z",
+    "status": "success",
+    "error": null,
+    "importedCount": {
+      "subjects": 40,
+      "classes": 40
+    }
+  }
+}

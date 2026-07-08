@@ -1,0 +1,6 @@
+{
+  "name": "Meu Semestre IFSC",
+  "description": "Monte seu horário escolar ou acadêmico de forma visual, simples e inteligente, com detecção de conflitos, estatísticas, gerador de melhor grade e sincronização EduPage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
