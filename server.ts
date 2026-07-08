@@ -943,6 +943,11 @@ const INITIAL_SUBJECTS: Subject[] = [
   }
 ];
 
+const INITIAL_SUBJECTS_WITH_SEMESTER: Subject[] = INITIAL_SUBJECTS.map(s => ({
+  ...s,
+  calendarSemester: s.calendarSemester || "2026.1"
+}));
+
 const DB_FILE = path.join(process.cwd(), "db.json");
 
 // Helper to load DB
@@ -958,14 +963,14 @@ function loadDB(): { subjects: Subject[], syncStatus: SyncStatus } {
   
   // Default structure
   const defaultDB = {
-    subjects: INITIAL_SUBJECTS,
+    subjects: INITIAL_SUBJECTS_WITH_SEMESTER,
     syncStatus: {
       lastSync: new Date("2026-07-06T15:00:00Z").toISOString(),
       status: "success" as const,
       error: null,
       importedCount: {
-        subjects: INITIAL_SUBJECTS.length,
-        classes: INITIAL_SUBJECTS.reduce((acc, sub) => acc + sub.classes.length, 0)
+        subjects: INITIAL_SUBJECTS_WITH_SEMESTER.length,
+        classes: INITIAL_SUBJECTS_WITH_SEMESTER.reduce((acc, sub) => acc + sub.classes.length, 0)
       }
     }
   };
@@ -1129,14 +1134,14 @@ async function startServer() {
   // API Route: Reset Database to original seed
   app.post("/api/sync/reset", (req, res) => {
     const defaultDB = {
-      subjects: INITIAL_SUBJECTS,
+      subjects: INITIAL_SUBJECTS_WITH_SEMESTER,
       syncStatus: {
         lastSync: new Date().toISOString(),
         status: "success" as const,
         error: null,
         importedCount: {
-          subjects: INITIAL_SUBJECTS.length,
-          classes: INITIAL_SUBJECTS.reduce((acc, sub) => acc + sub.classes.length, 0)
+          subjects: INITIAL_SUBJECTS_WITH_SEMESTER.length,
+          classes: INITIAL_SUBJECTS_WITH_SEMESTER.reduce((acc, sub) => acc + sub.classes.length, 0)
         }
       }
     };

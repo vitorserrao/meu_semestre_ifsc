@@ -751,13 +751,13 @@ export default function ExportPanel({ selectedClasses, subjects }: ExportPanelPr
       const isEven = rowIndex % 2 === 0;
       const bgRow = isEven ? "#ffffff" : "#f8fafc";
       
-      gridRowsHtml += `<div style="display: grid; grid-template-columns: 60px repeat(6, 1fr); background-color: ${bgRow}; border-top: 1px solid #e2e8f0; min-height: 44px; align-items: stretch;">`;
+      gridRowsHtml += `<div style="display: grid; grid-template-columns: 60px repeat(6, 1fr); background-color: ${bgRow}; border-top: 1px solid #e2e8f0; min-height: 56px; align-items: stretch; box-sizing: border-box;">`;
       
       // Col 0: Period label
       gridRowsHtml += `
-        <div style="text-align: center; border-right: 1px solid #e2e8f0; background-color: #f1f5f9; padding: 4px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box;">
-          <div style="font-size: 10px; font-weight: 800; color: #475569; line-height: 1.2;">${slot.label}</div>
-          <div style="font-size: 7.5px; color: #94a3b8; margin-top: 1px; line-height: 1.2;">${slot.start}-${slot.end}</div>
+        <div style="text-align: center; border-right: 1px solid #e2e8f0; background-color: #f1f5f9; padding: 6px 4px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; min-height: 56px; overflow: visible;">
+          <div style="font-size: 11px; font-weight: bold; color: #475569; line-height: 1.5; overflow: visible;">${slot.label}</div>
+          <div style="font-size: 8px; color: #94a3b8; margin-top: 2px; line-height: 1.5; overflow: visible;">${slot.start}-${slot.end}</div>
         </div>
       `;
 
@@ -769,9 +769,9 @@ export default function ExportPanel({ selectedClasses, subjects }: ExportPanelPr
         if (classesInCell.length > 1) {
           // Conflict
           gridRowsHtml += `
-            <div style="padding: 4px; text-align: center; background-color: #fee2e2; border-left: 2px solid #ef4444; ${hasBorderRight} display: flex; flex-direction: column; justify-content: center; overflow: hidden; box-sizing: border-box;">
-              <div style="font-size: 8px; font-weight: 800; color: #b91c1c; line-height: 1.2;">CONFLITO</div>
-              <div style="font-size: 6.5px; color: #b91c1c; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; line-height: 1.2;">Múltiplas</div>
+            <div style="padding: 6px 4px; text-align: center; background-color: #fee2e2; border-left: 2px solid #ef4444; ${hasBorderRight} display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; min-height: 56px; overflow: visible;">
+              <div style="font-size: 9px; font-weight: bold; color: #b91c1c; line-height: 1.5; overflow: visible;">CONFLITO</div>
+              <div style="font-size: 7px; color: #b91c1c; text-overflow: ellipsis; white-space: nowrap; overflow: visible; line-height: 1.5; width: 100%;">Múltiplas</div>
             </div>
           `;
         } else if (classesInCell.length === 1) {
@@ -783,16 +783,16 @@ export default function ExportPanel({ selectedClasses, subjects }: ExportPanelPr
           const roomStr = cls.schedules.find(s => s.dayOfWeek === dayIdx)?.room || cls.room || "Sala";
 
           gridRowsHtml += `
-            <div style="padding: 4px; text-align: center; background-color: rgb(${pr}, ${pg}, ${pb}); border-left: 3px solid rgb(${r}, ${g}, ${b}); ${hasBorderRight} display: flex; flex-direction: column; justify-content: center; overflow: hidden; box-sizing: border-box;">
-              <div style="font-size: 8.5px; font-weight: 800; color: #0f172a; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; line-height: 1.2;">${sub?.code || cls.code}</div>
-              <div style="font-size: 6.5px; color: #475569; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; margin-top: 1px; line-height: 1.2;">${cls.code} • ${roomStr}</div>
+            <div style="padding: 6px 4px; text-align: center; background-color: rgb(${pr}, ${pg}, ${pb}); border-left: 3px solid rgb(${r}, ${g}, ${b}); ${hasBorderRight} display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; min-height: 56px; overflow: visible;">
+              <div style="font-size: 10px; font-weight: bold; color: #0f172a; text-overflow: ellipsis; white-space: nowrap; overflow: visible; line-height: 1.5; width: 100%;">${sub?.code || cls.code}</div>
+              <div style="font-size: 7.5px; color: #475569; text-overflow: ellipsis; white-space: nowrap; overflow: visible; margin-top: 2px; line-height: 1.5; width: 100%;">${cls.code} • ${roomStr}</div>
             </div>
           `;
         } else {
           // Empty cell
           gridRowsHtml += `
-            <div style="padding: 4px; text-align: center; ${hasBorderRight} display: flex; flex-direction: column; justify-content: center; box-sizing: border-box;">
-              <div style="font-size: 8px; color: #e2e8f0; line-height: 1.2;">-</div>
+            <div style="padding: 6px 4px; text-align: center; ${hasBorderRight} display: flex; flex-direction: column; justify-content: center; align-items: center; box-sizing: border-box; min-height: 56px; overflow: visible;">
+              <div style="font-size: 9px; color: #cbd5e1; line-height: 1.5; overflow: visible;">-</div>
             </div>
           `;
         }
@@ -815,19 +815,19 @@ export default function ExportPanel({ selectedClasses, subjects }: ExportPanelPr
       const displayName = sub.name.length > 55 ? sub.name.substring(0, 52) + "..." : sub.name;
 
       disciplinesListHtml += `
-        <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid ${subjectColorHex}; border-radius: 8px; padding: 10px; display: flex; flex-direction: column; gap: 4px; text-align: left; box-sizing: border-box; margin-bottom: 8px;">
-          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; box-sizing: border-box;">
-            <div style="font-size: 11px; font-weight: 800; color: #1e293b; line-height: 1.4; word-break: break-word; flex-grow: 1;">
+        <div style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-left: 4px solid ${subjectColorHex}; border-radius: 8px; padding: 12px 10px; display: flex; flex-direction: column; gap: 4px; text-align: left; box-sizing: border-box; margin-bottom: 8px; overflow: visible;">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; box-sizing: border-box; overflow: visible;">
+            <div style="font-size: 11.5px; font-weight: bold; color: #1e293b; line-height: 1.5; word-break: break-word; flex-grow: 1; overflow: visible; padding: 1px 0;">
               ${displayName}
             </div>
-            <div style="font-size: 8.5px; font-weight: 900; color: #4f46e5; background-color: #eeebff; border: 1px solid #e0dbff; border-radius: 4px; padding: 2px 5px; white-space: nowrap; line-height: 1.2;">
+            <div style="font-size: 9px; font-weight: bold; color: #4f46e5; background-color: #eeebff; border: 1px solid #e0dbff; border-radius: 4px; padding: 3px 6px; white-space: nowrap; line-height: 1.5; overflow: visible; margin-top: 1px;">
               ${cls.code}
             </div>
           </div>
-          <div style="display: flex; flex-direction: column; gap: 2px; box-sizing: border-box; margin-top: 2px;">
-            <div style="font-size: 8.5px; color: #64748b; font-weight: 500; line-height: 1.3;">Prof: ${cls.professor || "A definir"}</div>
-            <div style="font-size: 8.5px; color: #64748b; font-weight: 500; line-height: 1.3;">Salas: ${cls.schedules.map(s => s.room).join(", ") || cls.room || "A definir"}</div>
-            <div style="font-size: 8.5px; color: #4f46e5; font-weight: 700; margin-top: 2px; line-height: 1.3;">${scheduleText}</div>
+          <div style="display: flex; flex-direction: column; gap: 2px; box-sizing: border-box; margin-top: 2px; overflow: visible;">
+            <div style="font-size: 9px; color: #64748b; font-weight: 500; line-height: 1.5; overflow: visible;">Prof: ${cls.professor || "A definir"}</div>
+            <div style="font-size: 9px; color: #64748b; font-weight: 500; line-height: 1.5; overflow: visible;">Salas: ${cls.schedules.map(s => s.room).join(", ") || cls.room || "A definir"}</div>
+            <div style="font-size: 9px; color: #4f46e5; font-weight: bold; margin-top: 2px; line-height: 1.5; overflow: visible;">${scheduleText}</div>
           </div>
         </div>
       `;
@@ -843,7 +843,7 @@ export default function ExportPanel({ selectedClasses, subjects }: ExportPanelPr
     container.style.zIndex = "-9999";
 
     container.innerHTML = `
-      <div style="padding: 32px; background-color: #f8fafc; width: 1200px; border: 1px solid #e2e8f0; border-radius: 24px; font-family: system-ui, -apple-system, sans-serif; box-sizing: border-box;">
+      <div style="padding: 32px; background-color: #f8fafc; width: 1200px; border: 1px solid #e2e8f0; border-radius: 24px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box;">
         <!-- Header Banner -->
         <div style="display: flex; align-items: center; justify-content: space-between; background-color: #4f46e5; color: white; padding: 24px; border-radius: 16px; margin-bottom: 24px; box-sizing: border-box;">
           <div>

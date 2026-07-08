@@ -655,22 +655,6 @@ export default function App() {
         />
       )}
 
-      {/* Footer copyright info */}
-      <footer className="bg-white border-t border-slate-200 py-4.5 text-center text-xs text-slate-400 mt-auto select-none print:hidden">
-        <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p>© 2026 Meu Semestre IFSC. Desenvolvido para estudantes do IFC Florianópolis.</p>
-          <div className="flex gap-4">
-            <span className="hover:text-slate-600 cursor-help" title="Filtros: Sem conflito (+1000), Menos dias (+300), Menor tempo ocioso (+250)">
-              Pesos do Algoritmo
-            </span>
-            <span>•</span>
-            <span className="hover:text-slate-600 cursor-help" title="Pressione Ctrl+K de qualquer lugar da tela para pesquisar disciplinas de forma instantânea.">
-              Atalhos de Teclado (⌘K)
-            </span>
-          </div>
-        </div>
-      </footer>
-
       {/* Styles for print output optimization */}
       <style>{`
         @media print {
