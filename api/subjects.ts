@@ -32,7 +32,7 @@ export default function handler(req, res) {
   let result = subjects;
 
   if (calendarSemester) {
-    result = result.filter((sub) => (sub.calendarSemester || "2026.2") === calendarSemester);
+    result = result.filter((sub) => (sub.calendarSemester || "2026.1") === calendarSemester);
   }
 
   if (q) {

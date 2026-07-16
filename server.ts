@@ -1002,7 +1002,7 @@ async function startServer() {
     let semesterFiltered = subjects;
     if (calSem) {
       semesterFiltered = subjects.filter(sub => {
-        const s = sub.calendarSemester || "2026.2";
+        const s = sub.calendarSemester || "2026.1";
         return s === calSem;
       });
     }
