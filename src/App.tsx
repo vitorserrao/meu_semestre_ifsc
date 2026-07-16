@@ -99,36 +99,16 @@ export default function App() {
     try {
       localStorage.setItem("planejador_grade_calendar_semester", activeCalendarSemester);
       
-      const savedGrades = localStorage.getItem(`planejador_grades_list_${activeCalendarSemester}`);
-      let loadedGrades: SavedGrade[] = [];
-      
-      if (savedGrades) {
-        loadedGrades = JSON.parse(savedGrades);
-      } else {
-        // Fallback to legacy single grade storage
-        const legacySingle = localStorage.getItem(`planejador_grade_class_ids_${activeCalendarSemester}`);
-        let classIds: string[] = [];
-        if (legacySingle) {
-          classIds = JSON.parse(legacySingle);
-        } else if (activeCalendarSemester === "2026.1") {
-          const legacySaved = localStorage.getItem("planejador_grade_class_ids");
-          if (legacySaved) {
-            classIds = JSON.parse(legacySaved);
-          }
-        }
-        loadedGrades = [
-          { id: "grade-1", name: "Grade 1", classIds }
-        ];
-      }
+      // Clear grades on semester change as requested
+      const loadedGrades: SavedGrade[] = [
+        { id: "grade-1", name: "Grade 1", classIds: [] }
+      ];
       
       setGrades(loadedGrades);
-      
-      const savedActiveId = localStorage.getItem(`planejador_active_grade_id_${activeCalendarSemester}`);
-      if (savedActiveId && loadedGrades.some(g => g.id === savedActiveId)) {
-        setActiveGradeId(savedActiveId);
-      } else {
-        setActiveGradeId(loadedGrades[0]?.id || "grade-1");
-      }
+      setActiveGradeId("grade-1");
+
+      localStorage.removeItem(`planejador_grades_list_${activeCalendarSemester}`);
+      localStorage.removeItem(`planejador_active_grade_id_${activeCalendarSemester}`);
     } catch (e) {
       console.error("Erro ao carregar dados do LocalStorage:", e);
     }
@@ -497,7 +477,7 @@ export default function App() {
               id="tab-course-catalog"
             >
               <BookOpen className="w-3.5 h-3.5" />
-              <span>Catálogo</span>
+              <span>Disciplinas por Semestre</span>
             </button>
 
             <button
@@ -557,36 +537,20 @@ export default function App() {
               <>
                 {/* Viewport content rendering based on active tab */}
                 {activeTab === "grid" && (
-                  <div className="grid grid-cols-1 xl:grid-cols-[1fr_360px] gap-6 items-start">
-                    {/* Left Side: Weekly Grid & Export controls */}
-                    <div className="space-y-6 flex flex-col min-w-0">
-                      {/* Google Calendar view */}
-                      <WeeklyGrid 
-                        selectedClasses={selectedClassesList} 
-                        subjects={currentSemesterSubjects}
-                        conflicts={conflictsList}
-                      />
-
-                      {/* Print & Export tools */}
-                      <div className="print:hidden">
-                        <ExportPanel 
+                  <div className="grid grid-cols-1 xl:grid-cols-[1fr_380px] gap-6 items-start">
+                    {/* Main Content Area */}
+                    <div className="w-full space-y-6">
+                      {/* Main: Weekly Grid */}
+                      <div className="w-full">
+                        <WeeklyGrid 
                           selectedClasses={selectedClassesList} 
-                          subjects={currentSemesterSubjects} 
+                          subjects={currentSemesterSubjects}
+                          conflicts={conflictsList}
                         />
                       </div>
-                    </div>
 
-                    {/* Right Side: Added disciplines lists and stats (collapses below on smaller screens) */}
-                    <div className="space-y-6 print:hidden">
-                      <SidebarStats 
-                        selectedClasses={selectedClassesList} 
-                        subjects={currentSemesterSubjects}
-                        conflicts={conflictsList}
-                        stats={scheduleStats}
-                      />
-
-                      {/* Selected disciplines detailed listing */}
-                      <div className="space-y-3">
+                      {/* Selected disciplines detailed listing (now below grid) */}
+                      <div className="w-full space-y-3">
                         <div className="text-xs text-slate-400 font-semibold uppercase tracking-wider select-none px-1">
                           Disciplinas na Grade ({selectedClassesList.length})
                         </div>
@@ -597,6 +561,20 @@ export default function App() {
                           onOpenComparator={setComparatorSubject}
                         />
                       </div>
+                    </div>
+
+                    {/* Sidebar: Stats & Export */}
+                    <div className="space-y-6 print:hidden">
+                      <SidebarStats 
+                        selectedClasses={selectedClassesList} 
+                        subjects={currentSemesterSubjects}
+                        conflicts={conflictsList}
+                        stats={scheduleStats}
+                      />
+                      <ExportPanel 
+                        selectedClasses={selectedClassesList} 
+                        subjects={currentSemesterSubjects} 
+                      />
                     </div>
                   </div>
                 )}

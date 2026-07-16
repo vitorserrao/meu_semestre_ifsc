@@ -36,10 +36,10 @@ const STANDARD_SLOTS = [
   { start: "16:10", end: "17:00" },
   
   // Night
-  { start: "18:30", end: "19:20" },
-  { start: "19:20", end: "20:10" },
-  { start: "20:20", end: "21:10" },
-  { start: "21:10", end: "22:30" },
+  { start: "18:30", end: "19:25" },
+  { start: "19:25", end: "20:20" },
+  { start: "20:40", end: "21:35" },
+  { start: "21:35", end: "22:30" },
 ];
 
 function splitScheduleIntoSlots(startTime: string, endTime: string): { startTime: string; endTime: string }[] {

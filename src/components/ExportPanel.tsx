@@ -951,7 +951,7 @@ export default function ExportPanel({ selectedClasses, subjects }: ExportPanelPr
     <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-xs select-none" id="export-panel-card">
       <h4 className="font-display font-bold text-sm text-slate-800 mb-1 flex items-center gap-2">
         <Download className="w-4 h-4 text-indigo-500" />
-        <span>Exportação Profissional</span>
+        <span>Exportação</span>
       </h4>
       <p className="text-xs text-slate-400 mb-4">
         Sincronize sua grade planejada com outros dispositivos ou exporte para compartilhar.
