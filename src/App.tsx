@@ -24,9 +24,9 @@ export default function App() {
   // Active calendar semester state (e.g., "2026.1", "2026.2")
   const [activeCalendarSemester, setActiveCalendarSemester] = useState<string>(() => {
     try {
-      return localStorage.getItem("planejador_grade_calendar_semester") || "2026.1";
+      return localStorage.getItem("planejador_grade_calendar_semester") || "2026.2";
     } catch {
-      return "2026.1";
+      return "2026.2";
     }
   });
 

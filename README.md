@@ -1,6 +1,6 @@
 # 🎓 Meu Semestre IFSC
 
-> Planeje sua grade do semestre, visualize conflitos de horários e monte sua grade antes do período oficial de matrícula.
+> Planeje sua  grade do semestre, visualize conflitos de horários e monte sua grade antes do período oficial de matrícula.
 
 ![Meu Semestre IFSC](docs/images/home.png)
 
@@ -8,7 +8,7 @@
 
 ## 📖 Sobre
 
-O **Meu Semestre IFSC** é uma aplicação web desenvolvida para auxiliar estudantes do **Instituto Federal de Santa Catarina (IFSC) - Florianópolis - Sistemas de Energia** no planejamento de suas disciplinas antes do período oficial de matrícula.
+O **Meu Semestre IFSC** é uma aplicação web desenvolvida para auxiliar estudantes do **Instituto Federal de Santa Catarina (IFSC)** no planejamento de suas disciplinas antes do período oficial de matrícula.
 
 A plataforma reúne em um único ambiente todas as informações necessárias para montar uma grade horária ideal, permitindo pesquisar disciplinas, visualizar turmas, comparar horários e identificar conflitos automaticamente.
 
@@ -23,7 +23,7 @@ O objetivo é proporcionar uma experiência muito mais prática e intuitiva do q
 - 🗓️ Visualização da grade horária semanal
 - ⚠️ Identificação automática de conflitos de horário
 - 🔄 Alteração rápida entre turmas
-- 👨‍🏫 Exibição dos professores de cada turma
+- 👨🏫 Exibição dos professores de cada turma
 - 🏫 Informações da sala de aula
 - 📊 Estatísticas da grade em tempo real
 - 📄 Exportação em PDF
@@ -82,17 +82,31 @@ Ela é composta por:
 
 - Grade horária interativa;
 - Barra de pesquisa inteligente;
-- Catálogo de disciplinas;
+- Lsta  de disciplinas;
 - Lista das disciplinas selecionadas;
 - Painel de estatísticas;
 - Ferramentas de exportação.
 
 ---
+
+## 🛠️ Tecnologias
+
+> Atualize conforme seu projeto.
+
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide Icons
+---
+
 ## 🎯 Público-alvo
 
-Estudantes do **Instituto Federal de Santa Catarina (IFSC) -  Florianópolis - Sistemas de Energia** que desejam planejar sua matrícula antes da abertura do período oficial no SIGAA.
+Estudantes do **Instituto Federal de Santa Catarina (IFSC) - Florianópolis - Sistemas de Energia** que desejam planejar sua matrícula antes da abertura do período oficial no SIGAA.
 
 ---
+
 
 ## 📄 Licença
 

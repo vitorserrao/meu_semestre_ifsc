@@ -945,7 +945,7 @@ const INITIAL_SUBJECTS: Subject[] = [
 
 const INITIAL_SUBJECTS_WITH_SEMESTER: Subject[] = INITIAL_SUBJECTS.map(s => ({
   ...s,
-  calendarSemester: s.calendarSemester || "2026.1"
+  calendarSemester: s.calendarSemester || "2026.2"
 }));
 
 const DB_FILE = path.join(process.cwd(), "db.json");
@@ -1002,7 +1002,7 @@ async function startServer() {
     let semesterFiltered = subjects;
     if (calSem) {
       semesterFiltered = subjects.filter(sub => {
-        const s = sub.calendarSemester || "2026.1";
+        const s = sub.calendarSemester || "2026.2";
         return s === calSem;
       });
     }
@@ -1157,9 +1157,9 @@ async function startServer() {
       return res.status(400).json({ error: "Nome e código são obrigatórios" });
     }
     
-    // Default calendarSemester to 2026.1 if not provided
+    // Default calendarSemester to 2026.2 if not provided
     if (!newSubject.calendarSemester) {
-      newSubject.calendarSemester = "2026.1";
+      newSubject.calendarSemester = "2026.2";
     }
 
     const existingIndex = subjects.findIndex(s => s.id === newSubject.id);

@@ -1249,6 +1249,766 @@
         }
       ],
       "calendarSemester": "2026.1"
+    },
+    {
+      "id": "sub-ewtfw1lzo",
+      "code": "ADM20805",
+      "name": "ADMINISTRAÇÃO GERAL",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#2df346",
+      "classes": [
+        {
+          "id": "class-ybytdztzl",
+          "subjectId": "sub-ybflwjsit",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tKELITON DA SILVA FERREIRA (40h)\tREGULAR\tABERTA\t6N12 (03/08/2026 - 22/12/2026)\tC212\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-achciwcot",
+      "code": "ALG20802",
+      "name": "ÁLGEBRA LINEAR",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#24710d",
+      "classes": [
+        {
+          "id": "class-d6chsyepr",
+          "subjectId": "sub-uh4208wc0",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tFABIANO CARLOS CIDRAL (60h)\tREGULAR\tABERTA\t2N34 6N12 (03/08/2026 - 08/08/2026), 2N34 (09/08/2026 - 15/08/2026), 2N34 6N12 (16/08/2026 - 22/08/2026), 2N34 (23/08/2026 - 29/08/2026), 2N34 6N12 (30/08/2026 - 05/09/2026), 2N34 (06/09/2026 - 12/09/2026), 2N34 6N12 (13/09/2026 - 19/09/2026), 2N34 (20/09/2026 - 26/09/2026), 2N34 6N12 (27/09/2026 - 03/10/2026), 2N34 (04/10/2026 - 10/10/2026), 2N34 6N12 (11/10/2026 - 17/10/2026), 2N34 (18/10/2026 - 24/10/2026), 2N34 6N12 (25/10/2026 - 31/10/2026), 2N34 (01/11/2026 - 07/11/2026), 2N34 6N12 (08/11/2026 - 14/11/2026), 2N34 (15/11/2026 - 21/11/2026), 2N34 6N12 (22/11/2026 - 28/1...\tC212\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-lzgi47oba",
+      "code": "EXT20803",
+      "name": "ATIVIDADE CURRICULAR DE EXTENSÃO I",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#d057ba",
+      "classes": [
+        {
+          "id": "class-ce8m3gvdc",
+          "subjectId": "sub-gi21jpfr6",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tFABRICIO YUTAKA KUWABATA TAKIGAWA (100h)\tREGULAR\tABERTA\t5N1234 (03/08/2026 - 22/12/2026)\tC112\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-htj50dkcx",
+      "code": "EXT20805",
+      "name": "ATIVIDADE CURRICULAR DE EXTENSÃO II",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#1a502e",
+      "classes": [
+        {
+          "id": "class-mbw92mft6",
+          "subjectId": "sub-1xb10ietn",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tPEDRO CESAR CORDEIRO VIEIRA (100h)\tREGULAR\tABERTA\t4N34 5N12 (03/08/2026 - 22/12/2026)\tQua G013; Qui C113\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-699f0qk8d",
+      "code": "EXT20806",
+      "name": "ATIVIDADE CURRICULAR DE EXTENSÃO III",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#2160d7",
+      "classes": [
+        {
+          "id": "class-8toasmfp8",
+          "subjectId": "sub-xqb3rz2aj",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tJOAO VITOR NUNES LEAL (20h)\tREGULAR\tABERTA\t3N1 (03/08/2026 - 22/12/2026)\tG023\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-l9ueb7m9p",
+      "code": "CAL20801",
+      "name": "CÁLCULO APLICADO",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#d38ee0",
+      "classes": [
+        {
+          "id": "class-77oc2hkur",
+          "subjectId": "sub-8jdp2ucku",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tCARLOS HENRIQUE RADAVELLI (120h)\tREGULAR\tABERTA\t24N12 3N34 (03/08/2026 - 22/12/2026)\tC107\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-c86mhysoa",
+      "code": "CAA22401",
+      "name": "CÁLCULO I",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#255dc",
+      "classes": [
+        {
+          "id": "class-rpkca6omk",
+          "subjectId": "sub-jt8806yfy",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 03\tGREYSON ALBERTO RECH (140h)\tREGULAR\tABERTA\t2N12 35N34 (03/08/2026 - 09/08/2026), 2N12 345N34 (10/08/2026 - 16/08/2026), 2N12 35N34 (17/08/2026 - 23/08/2026), 2N12 345N34 (24/08/2026 - 30/08/2026), 2N12 35N34 (31/08/2026 - 06/09/2026), 2N12 345N34 (07/09/2026 - 13/09/2026), 2N12 35N34 (14/09/2026 - 20/09/2026), 2N12 345N34 (21/09/2026 - 27/09/2026), 2N12 35N34 (28/09/2026 - 04/10/2026), 2N12 345N34 (05/10/2026 - 11/10/2026), 2N12 35N34 (12/10/2026 - 18/10/2026), 2N12 345N34 (19/10/2026 - 25/10/2026), 2N12 35N34 (26/10/2026 - 01/11/2026), 2N12 345N34 (02/11/2026 - 08/11/2026), 2N12 35N34 (09/11/2026 - 15/11/2026), 2N12...\tC120; C118; C120; C120\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-fmq3dpzol",
+      "code": "CTM20801",
+      "name": "CIÊNCIA E TECNOLOGIA DOS MATERIAIS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#e43f6d",
+      "classes": [
+        {
+          "id": "class-g21ucjpkl",
+          "subjectId": "sub-2uenzrkvp",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tA DEFINIR\tREGULAR\tA DEFINIR DOCENTE\t6N34 (03/08/2026 - 22/12/2026)\tC213\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-8qr2cmcwa",
+      "code": "CEA20802",
+      "name": "CIRCUITOS ELÉTRICOS A",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#52ebe2",
+      "classes": [
+        {
+          "id": "class-0drrm6nc3",
+          "subjectId": "sub-nbcxpgmna",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tBRUNO SCORTEGAGNA DUPCZAK (80h)\tREGULAR\tABERTA\t4N12 5N34 (03/08/2026 - 22/12/2026)\tQua G024; Qui C218\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-u5g347fp7",
+      "code": "CEB20803",
+      "name": "CIRCUITOS ELÉTRICOS B",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#4860e0",
+      "classes": [
+        {
+          "id": "class-9o6uj3i79",
+          "subjectId": "sub-h2dw5o5iq",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tJULIANO BITENCOURT PADILHA (80h)\tREGULAR\tABERTA\t26N34 (03/08/2026 - 22/12/2026)\tSeg C214; Sex G005\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-ogoxuh1ip",
+      "code": "CME20805",
+      "name": "COMERCIALIZAÇÃO DE ENERGIA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#dc4251",
+      "classes": [
+        {
+          "id": "class-p7a3qzult",
+          "subjectId": "sub-q5ch5s5fp",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tRUBIPIARA CAVALCANTE FERNANDES (80h)\tREGULAR\tABERTA\t2N1234 (03/08/2026 - 22/12/2026)\tC219\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-d3s1ojcb0",
+      "code": "CPQ20805",
+      "name": "COMUNICAÇÃO E PESQUISA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#c4a1b7",
+      "classes": [
+        {
+          "id": "class-pz798imwv",
+          "subjectId": "sub-0sommg0ix",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tMARCO ANTONIO QUIRINO PESSOA (40h)\tREGULAR\tABERTA\t6N34 (03/08/2026 - 22/12/2026)\tC113\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-35hf0lcrc",
+      "code": "DAC20801",
+      "name": "DESENHO TÉCNICO AUXILIADO POR COMPUTADOR",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#d403aa",
+      "classes": [
+        {
+          "id": "class-vb1qnsqlc",
+          "subjectId": "sub-zjjiqh702",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tCARLOS ERNANI DA VEIGA (20h)\tREGULAR\tABERTA\t5N34 (03/08/2026 - 08/08/2026), 5N34 (16/08/2026 - 22/08/2026), 5N34 (30/08/2026 - 05/09/2026), 5N34 (13/09/2026 - 19/09/2026), 5N34 (27/09/2026 - 03/10/2026), 5N34 (11/10/2026 - 17/10/2026), 5N34 (25/10/2026 - 31/10/2026), 5N34 (08/11/2026 - 14/11/2026), 5N34 (22/11/2026 - 28/11/2026), 5N34 (06/12/2026 - 12/12/2026)\tC220\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-o1jwb5nub",
+      "code": "ECA20802",
+      "name": "ECONOMIA APLICADA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#bc254f",
+      "classes": [
+        {
+          "id": "class-9r9uxkepr",
+          "subjectId": "sub-b8fwiylxv",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tEVERTHON TAGHORI SICA (40h)\tREGULAR\tABERTA\t2N12 (03/08/2026 - 22/12/2026)\tC218\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-viy4d9yii",
+      "code": "EEA20805",
+      "name": "EFICIÊNCIA ENERGÉTICA APLICADA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#f596bf",
+      "classes": [
+        {
+          "id": "class-kl5191p8a",
+          "subjectId": "sub-1ae0htobf",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tBRUNO SCORTEGAGNA DUPCZAK (80h)\tREGULAR\tABERTA\t3N1234 (03/08/2026 - 22/12/2026)\tG031\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-lkkrqv6wx",
+      "code": "EMA20805",
+      "name": "ENERGIA, SOCIEDADE E MEIO AMBIENTE",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#4a7d75",
+      "classes": [
+        {
+          "id": "class-sasw16q0s",
+          "subjectId": "sub-0vvzil4jc",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tROBERTO DE MATTOS SOLDI (40h)\tREGULAR\tABERTA\t5N34 (03/08/2026 - 22/12/2026)\tC212\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-hdbiyjqun",
+      "code": "ESP20802",
+      "name": "ESTATÍSTICA E PROBABILIDADE",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#203196",
+      "classes": [
+        {
+          "id": "class-e818i5749",
+          "subjectId": "sub-h0zk2gny1",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tLETICIA DOS SANTOS FOGACA (60h)\tREGULAR\tABERTA\t3N12 (03/08/2026 - 08/08/2026), 36N12 (09/08/2026 - 15/08/2026), 3N12 (16/08/2026 - 22/08/2026), 36N12 (23/08/2026 - 29/08/2026), 3N12 (30/08/2026 - 05/09/2026), 36N12 (06/09/2026 - 12/09/2026), 3N12 (13/09/2026 - 19/09/2026), 36N12 (20/09/2026 - 26/09/2026), 3N12 (27/09/2026 - 03/10/2026), 36N12 (04/10/2026 - 10/10/2026), 3N12 (11/10/2026 - 17/10/2026), 36N12 (18/10/2026 - 24/10/2026), 3N12 (25/10/2026 - 31/10/2026), 36N12 (01/11/2026 - 07/11/2026), 3N12 (08/11/2026 - 14/11/2026), 36N12 (15/11/2026 - 21/11/2026), 3N12 (22/11/2026 - 28/11/2026), 36N12 (29/11/2026 - 05/12/2...\tC212\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-gdjt1knf6",
+      "code": "FFS20801",
+      "name": "FENÔMENOS FÍSICOS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#a94b6",
+      "classes": [
+        {
+          "id": "class-2e5vu253b",
+          "subjectId": "sub-2kzixg6hq",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tSERGIO TORLAI PEREIRA (80h)\tREGULAR\tABERTA\t24N34 (03/08/2026 - 22/12/2026)\tC107\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-9tobtzn37",
+      "code": "FEM20802",
+      "name": "FUNDAMENTOS DE ELETROMAGNETISMO",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#1dc370",
+      "classes": [
+        {
+          "id": "class-dmo29nwwe",
+          "subjectId": "sub-x6x7d5gww",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tA DEFINIR\tREGULAR\tA DEFINIR DOCENTE\t6N34 (03/08/2026 - 22/12/2026)\tC218\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-qklk4icru",
+      "code": "FME20804",
+      "name": "FUNDAMENTOS DE MÁQUINAS ELÉTRICAS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#96e934",
+      "classes": [
+        {
+          "id": "class-2wdvfjq43",
+          "subjectId": "sub-szr2xwt9f",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tLEANDRO DE MEDEIROS SEBASTIAO (40h)\tREGULAR\tABERTA\t45N34 (03/08/2026 - 22/12/2026)\tQua G031; Qui G024\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-b1f41a2w0",
+      "code": "GAN20801",
+      "name": "GEOMETRIA ANALÍTICA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#55c9ad",
+      "classes": [
+        {
+          "id": "class-b5aoga9ou",
+          "subjectId": "sub-j5ghpqtog",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tMAIRON CARLIEL PONTAROLO (60h)\tREGULAR\tABERTA\t3N12 (03/08/2026 - 08/08/2026), 3N12 5N34 (09/08/2026 - 15/08/2026), 3N12 (16/08/2026 - 22/08/2026), 3N12 5N34 (23/08/2026 - 29/08/2026), 3N12 (30/08/2026 - 05/09/2026), 3N12 5N34 (06/09/2026 - 12/09/2026), 3N12 (13/09/2026 - 19/09/2026), 3N12 5N34 (20/09/2026 - 26/09/2026), 3N12 (27/09/2026 - 03/10/2026), 3N12 5N34 (04/10/2026 - 10/10/2026), 3N12 (11/10/2026 - 17/10/2026), 3N12 5N34 (18/10/2026 - 24/10/2026), 3N12 (25/10/2026 - 31/10/2026), 3N12 5N34 (01/11/2026 - 07/11/2026), 3N12 (08/11/2026 - 14/11/2026), 3N12 5N34 (15/11/2026 - 21/11/2026), 3N12 (22/11/2026 - 28/11/202...\tC107\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-68zm992k4",
+      "code": "GMT22401",
+      "name": "GEOMETRIA ANALÍTICA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#51c9b3",
+      "classes": [
+        {
+          "id": "class-wmgenlz7m",
+          "subjectId": "sub-jq5i3gqpv",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 03\tMAIRON CARLIEL PONTAROLO (60h)\tREGULAR\tABERTA\t2N34 (03/08/2026 - 09/08/2026), 2N34 4N12 (10/08/2026 - 16/08/2026), 2N34 (17/08/2026 - 23/08/2026), 2N34 4N12 (24/08/2026 - 30/08/2026), 2N34 (31/08/2026 - 06/09/2026), 2N34 4N12 (07/09/2026 - 13/09/2026), 2N34 (14/09/2026 - 20/09/2026), 2N34 4N12 (21/09/2026 - 27/09/2026), 2N34 (28/09/2026 - 04/10/2026), 2N34 4N12 (05/10/2026 - 11/10/2026), 2N34 (12/10/2026 - 18/10/2026), 2N34 4N12 (19/10/2026 - 25/10/2026), 2N34 (26/10/2026 - 01/11/2026), 2N34 4N12 (02/11/2026 - 08/11/2026), 2N34 (09/11/2026 - 15/11/2026), 2N34 4N12 (16/11/2026 - 22/11/2026), 2N34 (23/11/2026 - 29/11/202...\tC120\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-s7vn9llu3",
+      "code": "IEL20803",
+      "name": "INSTALAÇÕES ELÉTRICAS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#ee9f48",
+      "classes": [
+        {
+          "id": "class-pa8i8h2x6",
+          "subjectId": "sub-ojsjut8so",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tA DEFINIR\tREGULAR\tA DEFINIR DOCENTE\t3N12 (03/08/2026 - 22/12/2026)\tLIEA, G005\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-atfib0ewt",
+      "code": "IEE20804",
+      "name": "INTRODUÇÃO A EFICIÊNCIA ENERGÉTICA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#8731b",
+      "classes": [
+        {
+          "id": "class-lxklbbekn",
+          "subjectId": "sub-xmzg109a6",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tRAFAEL NILSON RODRIGUES (40h)\tREGULAR\tABERTA\t2N34 (03/08/2026 - 22/12/2026)\tG012\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-i3spcabmm",
+      "code": "ISE20802",
+      "name": "INTRODUÇÃO À SISTEMAS DE ENERGIA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#f3489e",
+      "classes": [
+        {
+          "id": "class-npky2qgvg",
+          "subjectId": "sub-ntg65ax4c",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tANDERSON SOARES ANDRE (40h)\tREGULAR\tABERTA\t5N12 (03/08/2026 - 22/12/2026)\tG012\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-b4pq744jd",
+      "code": "MAT20803",
+      "name": "LÓGICA DE PROGRAMAÇÃO EM MATLAB",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#b4ebd9",
+      "classes": [
+        {
+          "id": "class-nlag3q610",
+          "subjectId": "sub-8lxbgnxkc",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tLEANDRO DE MEDEIROS SEBASTIAO (40h)\tREGULAR\tABERTA\t6N12 (03/08/2026 - 22/12/2026)\tG025\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-asj6p3d0v",
+      "code": "MPE20804",
+      "name": "MACROS EM PLANILHAS ELETRÔNICAS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#bb438e",
+      "classes": [
+        {
+          "id": "class-jq8h2fzna",
+          "subjectId": "sub-z0uysnqf2",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tGUSTAVO CARDOSO ORSI (40h)\tREGULAR\tABERTA\t6N12 (03/08/2026 - 22/12/2026)\tG013\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-klnbgusqi",
+      "code": "MTF20804",
+      "name": "MATEMÁTICA FINANCEIRA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#f6de96",
+      "classes": [
+        {
+          "id": "class-8nwoe6q3q",
+          "subjectId": "sub-2qhyjplc9",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tJOAO VITOR NUNES LEAL (40h)\tREGULAR\tABERTA\t3N34 (03/08/2026 - 22/12/2026)\tG013\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-jqvl8ivlv",
+      "code": "MEE20803",
+      "name": "MATERIAIS E EQUIPAMENTOS ELÉTRICOS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#a7d6f",
+      "classes": [
+        {
+          "id": "class-nb7o4nwf2",
+          "subjectId": "sub-oaexrcau5",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tDANIEL TENFEN (40h)\tREGULAR\tABERTA\t2N12 (03/08/2026 - 22/12/2026)\tC216\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-f1wi6wlgz",
+      "code": "PEA20802",
+      "name": "PLANILHA ELETRÔNICA AVANÇADA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#74af16",
+      "classes": [
+        {
+          "id": "class-rnzrfy4kx",
+          "subjectId": "sub-nb22w3fdo",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tJOAO VITOR NUNES LEAL (40h)\tREGULAR\tABERTA\t4N34 (03/08/2026 - 22/12/2026)\tC220\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-pdo5azmv1",
+      "code": "PPT20805",
+      "name": "PRÉ-PROJETO DE TCC",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#e4f10d",
+      "classes": [
+        {
+          "id": "class-1x4xj5t0q",
+          "subjectId": "sub-74ym6gq7o",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tJOAO VITOR NUNES LEAL (40h) e GUSTAVO CARDOSO ORSI (40h)\tREGULAR\tABERTA\t4N12 (03/08/2026 - 22/12/2026)\tG013\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-i5dczzv8z",
+      "code": "PRE20803",
+      "name": "PRODUÇÃO DE ENERGIA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#e93acd",
+      "classes": [
+        {
+          "id": "class-geut3cgm9",
+          "subjectId": "sub-2tzaz4eco",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tVERONICA ETCHEBEHERE SANTIAGO (80h)\tREGULAR\tABERTA\t3N34 4N12 (03/08/2026 - 22/12/2026)\tTer C213; Qua G031\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-nm4vicdp0",
+      "code": "PII20801",
+      "name": "PROJETO INTEGRADOR",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#2586cc",
+      "classes": [
+        {
+          "id": "class-jb04wygql",
+          "subjectId": "sub-gz48njv5z",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tRICARDO LUIZ ALVES (40h) e RUBIPIARA CAVALCANTE FERNANDES (40h)\tREGULAR\tABERTA\t5N12 (03/08/2026 - 22/12/2026)\tC220\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-xp0bww6uc",
+      "code": "PIE20804",
+      "name": "PROJETOS DE INSTALAÇÕES ELÉTRICAS RESIDENCIAIS E PREDIAIS",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#d4dc7b",
+      "classes": [
+        {
+          "id": "class-8ebgphthk",
+          "subjectId": "sub-uype8irl1",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tWAGNER COELHO LEAL (80h)\tREGULAR\tABERTA\t3N12 6N34 (03/08/2026 - 22/12/2026)\tG025\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-dzieat42o",
+      "code": "QEE20804",
+      "name": "QUALIDADE DE ENERGIA ELÉTRICA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#635e6d",
+      "classes": [
+        {
+          "id": "class-xqpzdpbqn",
+          "subjectId": "sub-4iccu4c19",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tMARCIO SILVEIRA ORTMANN (40h)\tREGULAR\tABERTA\t2N12 (03/08/2026 - 22/12/2026)\tG023\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-1b2djwm3f",
+      "code": "RTE20804",
+      "name": "REGULAÇÃO TÉCNICA E ECONÔMICA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#a71a5c",
+      "classes": [
+        {
+          "id": "class-4e5zc1l2d",
+          "subjectId": "sub-4o9p30h6w",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tPEDRO CESAR CORDEIRO VIEIRA (40h)\tREGULAR\tABERTA\t4N12 (03/08/2026 - 22/12/2026)\tC220\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-2rxo43p4z",
+      "code": "SEG20802",
+      "name": "SEGURANÇA DO TRABALHO",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#f1963a",
+      "classes": [
+        {
+          "id": "class-xknxy72nd",
+          "subjectId": "sub-5s3x8oj2r",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tRAFAEL NILSON RODRIGUES (40h)\tREGULAR\tABERTA\t3N34 (03/08/2026 - 22/12/2026)\tC212\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-s8n9vflgs",
+      "code": "SME20803",
+      "name": "SISTEMAS DE MEDIÇÃO ELÉTRICA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#15b5d9",
+      "classes": [
+        {
+          "id": "class-p4du1urks",
+          "subjectId": "sub-wb9atiouv",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tCESAR ALBERTO PENZ (40h)\tREGULAR\tABERTA\t4N34 (03/08/2026 - 22/12/2026)\tG023\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-ol9ht63lt",
+      "code": "SEP20804",
+      "name": "SISTEMAS ELÉTRICOS DE POTÊNCIA",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#ef5804",
+      "classes": [
+        {
+          "id": "class-ozowaixnp",
+          "subjectId": "sub-xnlhrizo5",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tA DEFINIR\tREGULAR\tA DEFINIR DOCENTE\t5N12 (03/08/2026 - 22/12/2026)\tG025\t0/40 alunos\tVisualizar Menu"
+    },
+    {
+      "id": "sub-sc3qfkznk",
+      "code": "TCI20801",
+      "name": "TECNOLOGIA DA INFORMAÇÃO",
+      "course": "Sistemas de Energia",
+      "semester": 1,
+      "credits": 2,
+      "color": "#48bce8",
+      "classes": [
+        {
+          "id": "class-vn9jdcxg7",
+          "subjectId": "sub-u4alfyrc3",
+          "vacancies": 40,
+          "semester": 1,
+          "schedules": []
+        }
+      ],
+      "calendarSemester": "2026.2\tTurma 01\tJOAO VITOR NUNES LEAL (40h) e MARCELO DOS SANTOS COUTINHO (40h)\tREGULAR\tABERTA\t6N12 (03/08/2026 - 22/12/2026)\tC220\t0/40 alunos\tVisualizar Menu"
     }
   ],
   "syncStatus": {
