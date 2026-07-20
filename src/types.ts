@@ -26,6 +26,8 @@ export interface Subject {
   credits: number;
   color: string; // hex or tailwind color class
   classes: Class[];
+  workload?: string;
+  nature?: string;
 }
 
 export interface Conflict {

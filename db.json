@@ -1262,6 +1262,875 @@
         }
       ],
       "calendarSemester": "2026.2"
+    },
+    {
+      "id": "sub-eletro-cel12201",
+      "code": "CEL12201",
+      "name": "Circuitos Elétricos I",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 1,
+      "credits": 4,
+      "color": "#3b82f6",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-cel12201-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-cel12201",
+          "professor": "ROBERTO DE MATTOS SOLDI (80h)",
+          "room": "C112",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "C112"
+            },
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C112"
+            }
+          ]
+        },
+        {
+          "id": "class-eletro-cel12201-2",
+          "code": "Turma 02",
+          "subjectId": "sub-eletro-cel12201",
+          "professor": "MARCELO DOS SANTOS COUTINHO (80h)",
+          "room": "C113",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "C113"
+            },
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C113"
+            }
+          ]
+        }
+      ],
+      "workload": "120h (Teórica: 110h - Prática: 10h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-cir12202",
+      "code": "CIR12202",
+      "name": "Circuitos Elétricos II",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 2,
+      "credits": 4,
+      "color": "#10b981",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-cir12202-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-cir12202",
+          "professor": "WAGNER COELHO LEAL (80h)",
+          "room": "Seg C112; Qui C113",
+          "vacancies": 40,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C112"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C113"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 80h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-cmd12203",
+      "code": "CMD12203",
+      "name": "Comandos Industriais I",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 3,
+      "credits": 4,
+      "color": "#6366f1",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-cmd12203-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-cmd12203",
+          "professor": "LUIZ CARLOS BARON (80h)",
+          "room": "LIEA, G005",
+          "vacancies": 40,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "22:30",
+              "room": "LIEA, G005"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 28h - Prática: 52h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-cmd12204",
+      "code": "CMD12204",
+      "name": "Comandos Industriais II",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 4,
+      "credits": 4,
+      "color": "#f43f5e",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-cmd12204-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-cmd12204",
+          "professor": "ADRIANO DE ANDRADE BRESOLIN (80h)",
+          "room": "G025",
+          "vacancies": 40,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "22:30",
+              "room": "G025"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 28h - Prática: 52h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-com12203",
+      "code": "COM12203",
+      "name": "Comunicação",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 3,
+      "credits": 2,
+      "color": "#f59e0b",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-com12203-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-com12203",
+          "professor": "CLAUDIA REGINA SILVEIRA (40h)",
+          "room": "D011",
+          "vacancies": 40,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "D011"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 40h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-det12201",
+      "code": "DET12201",
+      "name": "Desenho Técnico",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 1,
+      "credits": 2,
+      "color": "#0d9488",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-det12201-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-det12201",
+          "professor": "GABRIEL BEU NOGUEIRA DE MACEDO (40h)",
+          "room": "G013",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G013"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 12h - Prática: 28h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ele12201",
+      "code": "ELE12201",
+      "name": "Eletricidade e Eletromagnetismo",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 1,
+      "credits": 4,
+      "color": "#ec4899",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ele12201-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ele12201",
+          "professor": "MARLY VIEIRA VIANA (80h) e LEANDRO DE MEDEIROS SEBASTIAO (80h)",
+          "room": "C218, C113",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C218, C113"
+            },
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "C218, C113"
+            }
+          ]
+        },
+        {
+          "id": "class-eletro-ele12201-2",
+          "code": "Turma 02",
+          "subjectId": "sub-eletro-ele12201",
+          "professor": "MARLY VIEIRA VIANA (80h) e LEANDRO DE MEDEIROS SEBASTIAO (80h)",
+          "room": "C218, C113",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C218, C113"
+            },
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "C218, C113"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 62h - Prática: 18h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ela12204",
+      "code": "ELA12204",
+      "name": "Eletrônica Analógica",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 4,
+      "credits": 4,
+      "color": "#8b5cf6",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ela12204-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ela12204",
+          "professor": "ROBERTO DE MATTOS SOLDI (80h)",
+          "room": "C216",
+          "vacancies": 40,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "C216"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "C216"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 40h - Prática: 40h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-eda12202",
+      "code": "EDA12202",
+      "name": "Eletrônica Digital Aplicada",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 2,
+      "credits": 2,
+      "color": "#06b6d4",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-eda12202-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-eda12202",
+          "professor": "DANIEL GODOY COSTA (40h)",
+          "room": "C216",
+          "vacancies": 40,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C216"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 15h - Prática: 25h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ger12203",
+      "code": "GER12203",
+      "name": "Gerência Empresarial",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 3,
+      "credits": 2,
+      "color": "#f97316",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ger12203-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ger12203",
+          "professor": "JOAO VITOR NUNES LEAL (40h) e HUMBERTO FRANCISCO BEIRAO JUNIOR (40h)",
+          "room": "G012",
+          "vacancies": 40,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G012"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 40h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ins12201",
+      "code": "INS12201",
+      "name": "Instalações Elétricas I",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 1,
+      "credits": 2,
+      "color": "#14b8a6",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ins12201-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ins12201",
+          "professor": "A DEFINIR",
+          "room": "LIEB, G011",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "LIEB, G011"
+            }
+          ]
+        },
+        {
+          "id": "class-eletro-ins12201-2",
+          "code": "Turma 02",
+          "subjectId": "sub-eletro-ins12201",
+          "professor": "MARLY VIEIRA VIANA (40h)",
+          "room": "LIEA, G005",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "LIEA, G005"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 20h - Prática: 20h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ins12202",
+      "code": "INS12202",
+      "name": "Instalações Elétricas II",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 2,
+      "credits": 2,
+      "color": "#a855f7",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ins12202-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ins12202",
+          "professor": "CARLOS ERNANI DA VEIGA (40h)",
+          "room": "LIEB, G011",
+          "vacancies": 40,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "LIEB, G011"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 20h - Prática: 20h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ins12203",
+      "code": "INS12203",
+      "name": "Instalações Elétricas III",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 3,
+      "credits": 2,
+      "color": "#3b82f6",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ins12203-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ins12203",
+          "professor": "CARLOS ERNANI DA VEIGA (40h)",
+          "room": "G011, LIEB",
+          "vacancies": 40,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "G011, LIEB"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 20h - Prática: 20h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ime12201",
+      "code": "IME12201",
+      "name": "Instrumentação e Medidas Elétricas I",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 1,
+      "credits": 2,
+      "color": "#10b981",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ime12201-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ime12201",
+          "professor": "MARCELO DOS SANTOS COUTINHO (40h) e HUMBERTO FRANCISCO BEIRAO JUNIOR (40h)",
+          "room": "G023",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G023"
+            }
+          ]
+        },
+        {
+          "id": "class-eletro-ime12201-2",
+          "code": "Turma 02",
+          "subjectId": "sub-eletro-ime12201",
+          "professor": "MARCELO DOS SANTOS COUTINHO (40h) e HUMBERTO FRANCISCO BEIRAO JUNIOR (40h)",
+          "room": "G023",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "G023"
+            }
+          ]
+        },
+        {
+          "id": "class-eletro-ime12201-3",
+          "code": "Turma 03",
+          "subjectId": "sub-eletro-ime12201",
+          "professor": "HUMBERTO FRANCISCO BEIRAO JUNIOR (40h)",
+          "room": "G023",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 5,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G023"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 18h - Prática: 22h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-ime12202",
+      "code": "IME12202",
+      "name": "Instrumentação e Medidas Elétricas II",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 2,
+      "credits": 2,
+      "color": "#6366f1",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-ime12202-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-ime12202",
+          "professor": "CESAR ALBERTO PENZ (40h)",
+          "room": "G023",
+          "vacancies": 40,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G023"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 18h - Prática: 22h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-mae12204",
+      "code": "MAE12204",
+      "name": "Manutenção Industrial",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 4,
+      "credits": 2,
+      "color": "#f43f5e",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-mae12204-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-mae12204",
+          "professor": "MARCELO DOS SANTOS COUTINHO (40h)",
+          "room": "G011",
+          "vacancies": 40,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G011"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 24h - Prática: 16h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-maq12202",
+      "code": "MAQ12202",
+      "name": "Máquinas Elétricas I",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 2,
+      "credits": 2,
+      "color": "#f59e0b",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-maq12202-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-maq12202",
+          "professor": "JOAO CARLOS MARTINS LUCIO (40h)",
+          "room": "G031",
+          "vacancies": 40,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G031"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 24h - Prática: 16h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-maq12203",
+      "code": "MAQ12203",
+      "name": "Máquinas Elétricas II",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 3,
+      "credits": 2,
+      "color": "#0d9488",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-maq12203-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-maq12203",
+          "professor": "LEANDRO DE MEDEIROS SEBASTIAO (40h)",
+          "room": "G031",
+          "vacancies": 40,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G031"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 24h - Prática: 16h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-maq12204",
+      "code": "MAQ12204",
+      "name": "Máquinas Elétricas III",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 4,
+      "credits": 2,
+      "color": "#ec4899",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-maq12204-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-maq12204",
+          "professor": "JOAO CARLOS MARTINS LUCIO (40h)",
+          "room": "G024",
+          "vacancies": 40,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 3,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "G024"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 24h - Prática: 16h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-pre12202",
+      "code": "PRE12202",
+      "name": "Projetos Elétricos I",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 2,
+      "credits": 2,
+      "color": "#8b5cf6",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-pre12202-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-pre12202",
+          "professor": "LUIZ CARLOS BARON (40h)",
+          "room": "Ter C220; Qui G013",
+          "vacancies": 40,
+          "semester": 2,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C220"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "18:30",
+              "endTime": "20:20",
+              "room": "G013"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 30h - Prática: 50h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-pre12203",
+      "code": "PRE12203",
+      "name": "Projetos Elétricos II",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 3,
+      "credits": 4,
+      "color": "#06b6d4",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-pre12203-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-pre12203",
+          "professor": "LUIZ CARLOS BARON (80h)",
+          "room": "Seg C220; Qui G013",
+          "vacancies": 40,
+          "semester": 3,
+          "schedules": [
+            {
+              "dayOfWeek": 1,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C220"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "G013"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 30h - Prática: 50h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-set12201",
+      "code": "SET12201",
+      "name": "Segurança e Higiene do Trabalho",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 1,
+      "credits": 2,
+      "color": "#f97316",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-set12201-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-set12201",
+          "professor": "ANDERSON SOARES ANDRE (40h)",
+          "room": "G012",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "G012"
+            }
+          ]
+        },
+        {
+          "id": "class-eletro-set12201-2",
+          "code": "Turma 02",
+          "subjectId": "sub-eletro-set12201",
+          "professor": "MARLY VIEIRA VIANA (40h)",
+          "room": "C113",
+          "vacancies": 18,
+          "semester": 1,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C113"
+            }
+          ]
+        }
+      ],
+      "workload": "40h (Teórica: 40h)",
+      "nature": "Obrigatória"
+    },
+    {
+      "id": "sub-eletro-spo12204",
+      "code": "SPO12204",
+      "name": "Sistemas de Potência",
+      "course": "Técnico em Eletrotécnica",
+      "semester": 4,
+      "credits": 4,
+      "color": "#14b8a6",
+      "calendarSemester": "2026.2",
+      "classes": [
+        {
+          "id": "class-eletro-spo12204-1",
+          "code": "Turma 01",
+          "subjectId": "sub-eletro-spo12204",
+          "professor": "PEDRO CESAR CORDEIRO VIEIRA (80h)",
+          "room": "Ter G005; Qui C214",
+          "vacancies": 40,
+          "semester": 4,
+          "schedules": [
+            {
+              "dayOfWeek": 2,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "G005"
+            },
+            {
+              "dayOfWeek": 4,
+              "startTime": "20:40",
+              "endTime": "22:30",
+              "room": "C214"
+            }
+          ]
+        }
+      ],
+      "workload": "80h (Teórica: 65h - Prática: 15h)",
+      "nature": "Obrigatória"
     }
   ],
   "syncStatus": {
@@ -1269,8 +2138,8 @@
     "status": "success",
     "error": null,
     "importedCount": {
-      "subjects": 40,
-      "classes": 40
+      "subjects": 63,
+      "classes": 69
     }
   }
 }

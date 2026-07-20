@@ -10,12 +10,12 @@ interface WeeklyGridProps {
 }
 
 const DAYS = [
-  { id: 1, label: "Segunda" },
-  { id: 2, label: "Terça" },
-  { id: 3, label: "Quarta" },
-  { id: 4, label: "Quinta" },
-  { id: 5, label: "Sexta" },
-  { id: 6, label: "Sábado" },
+  { id: 1, label: "Segunda", abbr: "SEG" },
+  { id: 2, label: "Terça", abbr: "TERÇA" },
+  { id: 3, label: "Quarta", abbr: "QUA" },
+  { id: 4, label: "Quinta", abbr: "QUI" },
+  { id: 5, label: "Sexta", abbr: "SEX" },
+  { id: 6, label: "Sábado", abbr: "SAB" },
 ];
 
 const START_HOUR = 7; // 07:00
@@ -135,7 +135,8 @@ export default function WeeklyGrid({ selectedClasses, subjects, conflicts }: Wee
           {DAYS.map((day) => (
             <div key={day.id} className="p-2.5 text-center">
               <span className="font-display font-semibold text-xs text-slate-600 sm:text-sm">
-                {day.label}
+                <span className="sm:hidden">{day.abbr}</span>
+                <span className="hidden sm:inline">{day.label}</span>
               </span>
             </div>
           ))}
@@ -143,7 +144,7 @@ export default function WeeklyGrid({ selectedClasses, subjects, conflicts }: Wee
       </div>
 
       {/* Calendar Body Area */}
-      <div className="relative flex-1 overflow-y-auto min-h-[600px] h-[900px]">
+      <div className="relative flex-1 overflow-y-auto min-h-[500px] h-[600px] sm:h-[900px]">
         <div className="grid grid-cols-[60px_1fr] h-full absolute inset-0">
           
           {/* Time scale label column */}

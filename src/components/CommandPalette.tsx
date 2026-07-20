@@ -83,10 +83,7 @@ export default function CommandPalette({ onSelectSubject, selectedSubjectIds, ca
         <span className="text-sm text-slate-400 flex-1 truncate">
           {query ? query : "Pesquisar disciplinas ou turmas (ex: Cálculo, Algoritmos)..."}
         </span>
-        <div className="flex gap-1 shrink-0 ml-2">
-          <kbd className="bg-white border border-slate-200 rounded-md px-1.5 py-0.5 text-[9px] text-slate-500 shadow-xs font-mono font-medium leading-none flex items-center justify-center">⌘</kbd>
-          <kbd className="bg-white border border-slate-200 rounded-md px-1.5 py-0.5 text-[9px] text-slate-500 shadow-xs font-mono font-medium leading-none flex items-center justify-center">K</kbd>
-        </div>
+
       </div>
 
       {isOpen && (
@@ -137,7 +134,7 @@ export default function CommandPalette({ onSelectSubject, selectedSubjectIds, ca
             ) : results.length === 0 ? (
               <div className="p-6 text-center text-xs text-slate-400">
                 <p className="font-medium">Nenhuma disciplina encontrada</p>
-                <p className="text-[11px] text-slate-300">Tente buscar por termos mais genéricos ou certifique-se de que a disciplina pertence ao curso de Sistemas de Energia.</p>
+                <p className="text-[11px] text-slate-300">Tente buscar por termos mais genéricos ou certifique-se de que a disciplina pertence aos cursos de Sistemas de Energia ou Eletrotécnica.</p>
               </div>
             ) : (
               results.map((subject) => {
